@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imgCharacter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/ic_launcher_foreground"
+
+            />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/LLay"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/imgCharacter">
+
+            <TextView
+                android:id="@+id/txvCharacterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                tools:text="Walter White" />
+
+
+
+            <TextView
+                android:id="@+id/txvCharacterNickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:padding="5dp"
+                tools:text="Heisenberg" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgStatus"
+            android:layout_width="54dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+
+            android:src="@drawable/alive"></ImageView>
+
+
+    </LinearLayout>
+
+</layout>

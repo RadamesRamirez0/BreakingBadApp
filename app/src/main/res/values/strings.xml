@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BreakingBadApp</string>
+    <string name="WelcomeMessage">The Breaking Bad App</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="btnlogin">Log In</string>
+    <string name="txvEmailInst">Email format: John@example.com (7 characters at least).</string>
+    <string name="txvPassInst">Password: 4 characters at least</string>
+    <string name="emailError">Check your email</string>
+    <string name="passError">Check your password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
